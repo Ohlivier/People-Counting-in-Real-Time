@@ -287,6 +287,8 @@ def people_counter():
 						# compute the sum of total people inside
 						total = []
 						total.append(len(move_in) - len(move_out))
+						print(f"Sending total to MAIN-ESP32")
+						print(f"Total sent is {len(total)}")
 
 			# store the trackable object in our dictionary
 			trackableObjects[objectID] = to
